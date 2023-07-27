@@ -362,6 +362,10 @@ a{
 @media screen and (max-width: 700px) {
   body{
     overflow-y: scroll;
+    cursor: default;
+  }
+  .mscursor-cursor {
+    display: none !important;
   }
   nav{
     justify-content: center;
@@ -369,7 +373,7 @@ a{
   .container{
     flex-direction: column;
     padding: 10px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
   }
   .col1 , .col2 , .controls, .sender , .receiver , .progressstatus , .filestatus{
     width: 100%;
